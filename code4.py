@@ -16,9 +16,10 @@ class Cat:
 
 def main():
 
-    my_cat = Dog(arm_length=10.0, leg_length=18.0, num_eyes=2, has_tail=True, is_furry=True)
+    my_cat = Cat(arm_length=10.0, leg_length=18.0, num_eyes=2, has_tail=True, is_furry=True)
     
     my_cat.describe()
 
 if __name__ == "__main__":
+
     main()
